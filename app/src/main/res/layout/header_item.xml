@@ -12,6 +12,7 @@
         android:layout_weight="1"
         android:text="User1: "
         android:textSize="20sp"
+        android:textColor="@color/primary_text"
         />
     <TextView
         android:id="@+id/user2_textView"
@@ -20,5 +21,6 @@
         android:layout_weight="1"
         android:text="User2: "
         android:textSize="20sp"
+        android:textColor="@color/primary_text"
         />
 </LinearLayout>

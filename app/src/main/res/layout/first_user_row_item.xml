@@ -12,6 +12,7 @@
         android:layout_alignParentStart="true"
         android:text="element_text"
         android:textSize="20sp"
+        android:textColor="@color/primary_text"
         />
 
     <EditText
@@ -23,5 +24,6 @@
         android:textSize="20sp"
         android:visibility="gone"
         android:imeOptions="actionDone"
+        android:textColor="@color/primary_text"
         />
 </RelativeLayout>

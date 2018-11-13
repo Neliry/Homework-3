@@ -147,6 +147,7 @@ class CustomAdapter :
                         mEditText.visibility=View.GONE
                         mTextView.visibility = View.VISIBLE
                         dataSet[position-1].messageContent=mEditText.text.toString()
+                        mEditText.setText("")
                         true
                     }
                     else -> false
